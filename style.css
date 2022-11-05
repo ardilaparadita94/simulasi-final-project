@@ -1,5 +1,7 @@
-.main-layout 
-{
+body {
+    background-color: opacity ;
+}
+.main-layout {
     max-width: 467px;
-    margin:0 auto;
+    margin: 0 auto;
 }
