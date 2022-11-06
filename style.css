@@ -1,7 +1,15 @@
+<<<<<<< HEAD
 body {
     background-color: #f9f9f9;
 }
 .main-layout {
     max-width: 467px;
     margin: 0 auto;
+=======
+.main-layout {
+    max-width: 467px;
+    margin: 0 auto;
+    background-color: rgba(0, 255, 255, 0.388);
+    font-style: italic;
+>>>>>>> rahma
 }

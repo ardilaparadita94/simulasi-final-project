@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+<body>
+    <div class="main-layout">
+        <div class="container">
+            <img src="https://i.postimg.cc/J093hZJ8/Tak-berjudul120.jpg " width="200"/>
+  <main class="container my-5">
+    <h1 id="greeting"></h1>
+    <button class="btn mt-5 d-none" id="btn-logout" onclick="login()">Login</button>
+    <div style="width: 50%">
+      <form id="form-regist">
+        <div class="mb-3">
+          <label for="regist-username" class="form-label">Username</label>
+          <input type="text" class="form-control" id="regist-username" name="username">
+        </div>
+        <div class="mb-3">
+          <label for="regist-email" class="form-label">Email</label>
+          <input type="email" class="form-control" id="regist-email" name="email" aria-describedby="emailHelp">
+        </div>
+        <div class="mb-3">
+          <label for="regist-pass" class="form-label">Password</label>
+          <input type="password" class="form-control" id="regist-pass" name="password">
+        </div>
+        <button type="submit" class="btn btn-primary">Register</button>
+      </form>
+    </div>
+  </main>
+        </div>
+    </div>
+  <script src="script.js">
+   
+  </script>
+</body>
+</html>
