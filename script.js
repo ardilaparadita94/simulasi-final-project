@@ -94,7 +94,9 @@ function onGreeting (username = '') {
   const elGreeting = document.getElementById('greeting')
   const elBtnLogout = document.getElementById('btn-logout')
   if (username) {
-    elGreeting.innerHTML = 'Hello ' + username + ',' + 'Selamat Datang Di LOYS'
+    elGreeting.innerHTML = 'Hello ' + username + ',' + 'Selamat Datang Di LOYS' 
+
+    
     elBtnLogout.classList.remove('d-none')
     elForm.classList.add('d-none')
   } else {
@@ -104,7 +106,7 @@ function onGreeting (username = '') {
   }
 }
 
-function logout () {
+function login () {
   localStorage.removeItem('user')
   onGreeting()
 }
