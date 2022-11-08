@@ -1,0 +1,32 @@
+.container{
+    width: 450px;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 2px 2px 20px rgba(0, 0,0,4);
+    background-color: dodgerblue;
+}
+.header{
+    color: white;
+    padding: 15px;
+}
+.body{
+    flex: 1;
+    color: white;
+    background-color: rgba(0,0,0,0,7);
+    padding: 20px 30px;
+}
+.message{
+    background-color: dodgerblue;
+    padding: 10px;
+    color: white;
+    width: fit-content;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.user_massage{
+    margin-left: auto;
+    background-color: white
+    color:black;
+}

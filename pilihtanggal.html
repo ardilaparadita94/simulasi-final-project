@@ -14,8 +14,22 @@
           <header>
             <h2 class="main-title text-container mb-4">offline</h2>
           </header>
-          <img src="https://i3.wp.com/www.enkosa.com/wp-content/uploads/2021/01/Kalender-Bulan-Februari-2022-dan-Hari-Peringatannya-960x1024.webp?resize=1000&w=1024"
-          width="400" />
+          <div class="calender">
+            <div class="header">
+              <a data-action="prev-month" href="javasript:void(0)" title="previous month"><i></i></a>
+              <div class="text" data-render="month-year"></div>
+              <a data-action="next-month" href="javascript:void(0)" title="next-month"><i></i></a>
+
+              <div class="month" data-flow="left">
+                <div class="month month-a">
+                  <div class="render render-a"></div>
+                </div>
+                <div class="month month-b"></div>
+              </div>
+            </div>
+          </div>
+          </div>
+         
           <table class="table">
             <tr>
                 <td><button type="button" class="btn btn-light">jadwal penuh</button></td>
@@ -34,6 +48,7 @@
               </table>
             </div>
         </div>
+<script src="kalender.js"></script>
     </body>
     </html>
                 
