@@ -91,17 +91,19 @@ function savedDataUser (data = {}) {
 }
 
 function onGreeting (username = '') {
+ const eltextContainerAfterLogin = document.getElementById('text-container-after-login')
   const elGreeting = document.getElementById('greeting')
-  const elBtnLogout = document.getElementById('btn-logout')
+  
   if (username) {
+    eltextContainerAfterLogin.classList.add('d-block')
     elGreeting.innerHTML = 'Hello ' + username + ',' + 'Selamat Datang Di LOYS' 
 
     
-    elBtnLogout.classList.remove('d-none')
+
     elForm.classList.add('d-none')
   } else {
     elGreeting.innerHTML = ''
-    elBtnLogout.classList.add('d-none')
+    eltextContainerAfterLogin.classList.remove('d-block')
     elForm.classList.remove('d-none')
   }
 }
